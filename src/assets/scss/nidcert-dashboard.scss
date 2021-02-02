@@ -1,0 +1,43 @@
+@import 'nidcert-dashboard/variables';
+@import 'nidcert-dashboard/mixins';
+
+// Plugins CSS
+@import "nidcert-dashboard/plugins/plugin-animate-bootstrap-notify";
+@import "nidcert-dashboard/plugins/plugin-perfect-scrollbar";
+
+// Core CSS
+@import "nidcert-dashboard/buttons";
+@import "nidcert-dashboard/inputs";
+@import "nidcert-dashboard/typography";
+@import "nidcert-dashboard/misc";
+@import "nidcert-dashboard/checkboxes-radio";
+
+
+// components
+@import "nidcert-dashboard/navbar";
+@import "nidcert-dashboard/page-header";
+@import "nidcert-dashboard/dropdown";
+@import "nidcert-dashboard/alerts";
+@import "nidcert-dashboard/images";
+@import "nidcert-dashboard/nucleo-outline";
+@import "nidcert-dashboard/tables";
+@import "nidcert-dashboard/sidebar-and-main-panel";
+@import "nidcert-dashboard/footers";
+@import "nidcert-dashboard/fixed-plugin";
+
+// cards
+@import "nidcert-dashboard/cards";
+@import "nidcert-dashboard/cards/card-plain";
+@import "nidcert-dashboard/cards/card-chart";
+@import "nidcert-dashboard/cards/card-user";
+@import "nidcert-dashboard/cards/card-map";
+@import "nidcert-dashboard/cards/card-stats";
+
+// angular differences
+@import "nidcert-dashboard/angular/plugin-ngx-toastr";
+@import "nidcert-dashboard/angular/sidebar-and-main-panel";
+@import "nidcert-dashboard/angular/dropdown";
+@import "nidcert-dashboard/angular/inputs";
+@import "nidcert-dashboard/angular/fixed-plugin";
+
+@import "nidcert-dashboard/responsive";
